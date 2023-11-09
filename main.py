@@ -64,4 +64,4 @@ with st.container():
 #
 #
 Botão para Download dos Dados em CSV
- st.download_button('Baixar Dados em CSV', df.to_csv(index=False).encode('utf-8'), 'dados_historicos.csv', 'text/csv')
+st.download_button('Baixar Dados em CSV', df.to_csv(index=False).encode('utf-8'), 'dados_historicos.csv', 'text/csv')
