@@ -63,5 +63,5 @@ with st.container():
     st.write(f"Variação: {delta}%")
 #
 #
-#Botão para Download dos Dados em CSV
-# st.download_button('Baixar Dados em CSV', df.to_csv(index=False).encode('utf-8'), 'dados_historicos.csv', 'text/csv')
+Botão para Download dos Dados em CSV
+ st.download_button('Baixar Dados em CSV', df.to_csv(index=False).encode('utf-8'), 'dados_historicos.csv', 'text/csv')
