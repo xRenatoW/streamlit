@@ -1,7 +1,7 @@
 # Dashboard Financeiro
 
 Este é um projeto de um painel financeiro simples desenvolvido em Python usando as bibliotecas `pandas`, `yfinance`, `datetime` e `streamlit`. O painel permite que você selecione um ativo financeiro e visualize informações como gráficos de preços, métricas financeiras e dados históricos.
-
+Deploy  > https://dashboardyf.streamlit.app/
 ## Pré-requisitos
 
 Antes de executar o painel financeiro, certifique-se de ter as seguintes bibliotecas instaladas:
